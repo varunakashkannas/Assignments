@@ -24,7 +24,7 @@ public class Assignment1_DataTypes {
 		System.out.println(" 6. Coordinates of a location (latitude, longitude): " + (lat + "," + lon));
 		// 7. Person's marital status: true or false
 		Boolean Married = true;
-		Boolean umarried = false;
+		Boolean unmarried = false;
 		System.out.println(" 7. Person's marital status: " + Married);
 		// 8. Person's occupation: "Software Engineer"
 		String work = "Software Engineer";
@@ -68,3 +68,36 @@ public class Assignment1_DataTypes {
 
 	}
 }
+
+/**
+ 2. Whether a customer has placed an order: true or false
+      Boolean order = true;
+      Boolean not_order = false;
+      System.out.println(" 2. Whether a customer has placed an order: " + not_order);
+      OUTPUT: 2. Whether a customer has placed an order: false
+      DOUBT: Is the above  2 varaible(order & not_order) defining is correct way
+                       OR
+             Boolean Order = true; (is enough, which means order = false denotes not ordered)
+
+
+16.Time of an event: 2:30 PM
+		double time = 2.30;
+		System.out.println(" 16. Time of an event: " + time + " PM");
+		OUTPUT: 16. Time of an event: 2.3 PM
+		EXPECTED:16. Time of an event: 2.30 PM 
+		DOUBT: which data type we need to use when colon  : coming in between digits.
+		
+4. Amount of money in a customer's bank account: 1000.50
+		float amt = 1000.50f;
+		System.out.println(" 4. Amount of money in a customer's bank account: " + amt);
+		OUTPUT:  4. Amount of money in a customer's bank account: 1000.5
+		EXPECTED:  4. Amount of money in a customer's bank account: 1000.50
+		DOUBT: i have used format print print option to get the two decimal points, but getting error, pls correct me
+		
+		float amt = 1000.50f;
+		System.out.format(" 4. Amount of money in a customer's bank account: %.2f" + amt);--> not working
+		System.out.format(" 4. Amount of money in a customer's bank account:" + %.2f amt);--> not working
+		
+		      
+		*/
+
