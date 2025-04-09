@@ -1,4 +1,4 @@
-package com.tcs.creatio.crm.langugebasics;
+package languagebasics;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -42,11 +42,10 @@ public class myfirstjavaprogram {
 		System.out.append("salary details of month: ").append("january & february");
 		System.out.println();
 		
-		String a ="10";
-		String b ="20";
-		System.out.println(a+b);
-		
-				
+		String c ="10";
+		String d ="20";
+		System.out.println(c+d);
+						
 
 		// using printwriter - all writer statement will be saved in seperate text file
 		PrintWriter writer = new PrintWriter("C:\\VarunStudy\\AutomationTraining\\AutomationProject\\src\\logs.txt");
