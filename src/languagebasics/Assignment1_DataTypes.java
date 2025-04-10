@@ -14,14 +14,14 @@ public class Assignment1_DataTypes {
 		System.out.println(" 3. Person's phone number: " + PhoneNumber);
 		// 4. Amount of money in a customer's bank account: 1000.50
 		float amt = 1000.50f;
-		System.out.println(" 4. Amount of money in a customer's bank account: " + amt);
+		System.out.format(" 4. Amount of money in a customer's bank account: %.2f%n",amt);
 		// 5. Person's email address: "john.doe@example.com"
 		String email = "john.doe@example.com";
 		System.out.println(" 5. Person's email address: " + email);
 		// 6. Coordinates of a location (latitude, longitude): 37.7749, -122.4194
 		double lat = 37.7749;
 		double lon = -122.4194;
-		System.out.println(" 6. Coordinates of a location (latitude, longitude): " + (lat + "," + lon));
+		System.out.println(" 6. Coordinates of a location (latitude, longitude): " + lat + "," + lon);
 		// 7. Person's marital status: true or false
 		Boolean Married = true;
 		Boolean unmarried = false;
@@ -71,6 +71,7 @@ public class Assignment1_DataTypes {
 
 /**
  2. Whether a customer has placed an order: true or false
+ 
       Boolean order = true;
       Boolean not_order = false;
       System.out.println(" 2. Whether a customer has placed an order: " + not_order);
@@ -81,6 +82,7 @@ public class Assignment1_DataTypes {
 
 
 16.Time of an event: 2:30 PM
+
 		double time = 2.30;
 		System.out.println(" 16. Time of an event: " + time + " PM");
 		OUTPUT: 16. Time of an event: 2.3 PM
@@ -88,6 +90,7 @@ public class Assignment1_DataTypes {
 		DOUBT: which data type we need to use when colon  : coming in between digits.
 		
 4. Amount of money in a customer's bank account: 1000.50
+
 		float amt = 1000.50f;
 		System.out.println(" 4. Amount of money in a customer's bank account: " + amt);
 		OUTPUT:  4. Amount of money in a customer's bank account: 1000.5
@@ -95,7 +98,7 @@ public class Assignment1_DataTypes {
 		DOUBT: i have used format print print option to get the two decimal points, but getting error, pls correct me
 		
 		float amt = 1000.50f;
-		System.out.format(" 4. Amount of money in a customer's bank account: %.2f" + amt);--> not working
+		System.out.format(" 4. Amount of money in a customer's bank account: %.2f%n",amt);--> not working
 		System.out.format(" 4. Amount of money in a customer's bank account:" + %.2f amt);--> not working
 		
 		      

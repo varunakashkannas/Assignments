@@ -9,5 +9,6 @@ package languagebasics;
 
 
 /**Git Repo Build, Git Bash Push& pull - Done
-Assignment 1 - 08/Apr/2025 - DataTypes - Done */
+Assignment 1 - 08/Apr/2025 - DataTypes - Done 
+Assignment 2 - 09/Apr/2025 - 3D Array - Done */
 
