@@ -4,33 +4,43 @@ package Assignment_3;
 
 public class EmpGroups_class2 {
 	public static void main(String[] args) {
-		Employees_class1 obj = new Employees_class1(); //Doubt: can object name be anything that user can provide
-		
-		String[] Empname = {obj.name[0],obj.name[1],obj.name[2]}; //keeping object name as reference, copying here in class 2
-		int[] EmpID = {obj.id[0],obj.id[1],obj.id[2]};
-		
+		Employees_class1 obj = new Employees_class1(); // Doubt: can object name be anything that user can provide
+
+		String Empname1 = obj.name[0];
+		String Empname2 = obj.name[1];
+		String Empname3 = obj.name[2]; // keeping object name as reference, copying here in class 2
+		int Empid1 = obj.id[0];
+		int Empid2 = obj.id[1];
+		int Empid3 = obj.id[2];
+
 		System.err.println("Assignment_3 10/APR/2025");
 		System.out.println();
-		System.out.println("Employee Name:" + Empname[0] + "," + " Employee Id:" + EmpID[0]);//since the value is stored class2 variables Empname & EmpID, calling directly
-		System.out.println("Employee Name:" + Empname[1] + "," + " Employee Id:" + EmpID[1]);
-		System.out.println("Employee Name:" + Empname[2] + "," + " Employee Id:" + EmpID[2]);
+		System.out.println("Employee Name:" + Empname1 + "," + " Employee Id:" + Empid1);// since the value is
+																								// stored class2
+																								// variables Empname &
+																								// EmpID, calling
+																								// directly
+		System.out.println("Employee Name:" + Empname2 + "," + " Employee Id:" + Empid2);
+		System.out.println("Employee Name:" + Empname3 + "," + " Employee Id:" + Empid3);
 
 	}
 
 }
 
 //Print using multiple inheritance child class 2 parent as class 1
-/**public class EmpGroups_class2 extends Employees_class1 {
-	public static void main(String[] args) {
-		EmpGroups_class2 obj = new EmpGroups_class2();
-		String[] Empname = {obj.name[0],obj.name[1],obj.name[2]}; //keeping object name as reference, copying here in class 2
-		int[] EmpID = {obj.id[0],obj.id[1],obj.id[2]};
-		
-		System.err.println("Assignment_3 10/APR/2025");
-		System.out.println();
-		System.out.println("Employee Name:" + Empname[0] + "," + " Employee Id:" + EmpID[0]);//since the value is stored class2 variables Empname & EmpID, calling directly
-		System.out.println("Employee Name:" + Empname[1] + "," + " Employee Id:" + EmpID[1]);
-		System.out.println("Employee Name:" + Empname[2] + "," + " Employee Id:" + EmpID[2]);
-		
-	}
-} */
+/**
+ * public class EmpGroups_class2 extends Employees_class1 { public static void
+ * main(String[] args) { EmpGroups_class2 obj = new EmpGroups_class2(); String[]
+ * Empname = {obj.name[0],obj.name[1],obj.name[2]}; //keeping object name as
+ * reference, copying here in class 2 int[] EmpID =
+ * {obj.id[0],obj.id[1],obj.id[2]};
+ * 
+ * System.err.println("Assignment_3 10/APR/2025"); System.out.println();
+ * System.out.println("Employee Name:" + Empname[0] + "," + " Employee Id:" +
+ * EmpID[0]);//since the value is stored class2 variables Empname & EmpID,
+ * calling directly System.out.println("Employee Name:" + Empname[1] + "," + "
+ * Employee Id:" + EmpID[1]); System.out.println("Employee Name:" + Empname[2] +
+ * "," + " Employee Id:" + EmpID[2]);
+ * 
+ * } }
+ */
