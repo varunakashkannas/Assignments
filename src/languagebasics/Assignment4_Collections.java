@@ -1,8 +1,10 @@
 package languagebasics;
 
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 public class Assignment4_Collections {
 
@@ -74,6 +76,10 @@ public class Assignment4_Collections {
 		movies.add("kollywood");
 		movies.add("sandalwood");
 		System.out.println(" 4) The third movie on the list " + movies.get(2));
+		
+				
+		
+
 	}
 }
 		
