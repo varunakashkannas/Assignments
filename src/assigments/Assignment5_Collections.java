@@ -1,4 +1,4 @@
-package languagebasics;
+package assigments;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

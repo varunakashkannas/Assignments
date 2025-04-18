@@ -1,4 +1,4 @@
-package languagebasics;
+package assigments;
 
 public class Assignment2_3Darray {
 	public static void main(String[] args) {
