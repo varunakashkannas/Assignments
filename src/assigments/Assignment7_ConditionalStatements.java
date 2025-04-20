@@ -3,7 +3,7 @@ package assigments;
 public class Assignment7_ConditionalStatements {
 	public static void main(String[] args) {
 		String customerName = "John Doe";
-		int creditScore = 520;
+		int creditScore = 720;
 		float income = 55000.0f;
 		boolean isEmployed = true;
 		float debtToIncomeRatio = 35.0f;
