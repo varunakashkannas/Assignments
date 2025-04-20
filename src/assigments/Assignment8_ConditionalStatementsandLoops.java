@@ -18,13 +18,9 @@ public class Assignment8_ConditionalStatementsandLoops {
 		transactions.add(-300);
 		transactions.add(4000);
 		transactions.add(-3000);
+		int cr = 0;	int creditAmt = 0; int susCredit = 0;	
+		int dt = 0; int debitAmt = 0; int susDebit = 0;
 				
-		int dt = 0;
-		int debitAmt = 0;
-		int susDebit = 0;
-		int cr = 0;
-		int creditAmt = 0;
-		int susCredit = 0;
 		for (int i = 0; i < 8; i++) 
 		{
 			if (transactions.get(i) > 0) 
